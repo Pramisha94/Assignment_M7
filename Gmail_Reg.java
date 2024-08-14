@@ -44,7 +44,7 @@ public class Gmail_Reg {
 		driver.findElement(By.className("VfPpkd-vQzf8d")).click();
 		Thread.sleep(2000);
 		
-		driver.findElement(By.id("phoneNumberId")).sendKeys("9408781121");
+		driver.findElement(By.id("phoneNumberId")).sendKeys("9408781122");
 		driver.findElement(By.className("VfPpkd-vQzf8d")).click();
 		Thread.sleep(20000);
 		

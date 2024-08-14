@@ -14,7 +14,7 @@ public class Total_Hyperlink {
 		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Pramish Vijoy\\Desktop\\Automation\\Selenium\\chromedriver-win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://phptravels.com/demo/");
+		driver.get("http://demo.guru99.com/test/web-table-element.php");
 		Thread.sleep(2000);
 		
 		List<WebElement> a =driver.findElements(By.tagName("a"));
