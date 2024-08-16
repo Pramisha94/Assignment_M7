@@ -15,9 +15,11 @@ public class Gmail_TestNG_Annot
   {   
 	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Pramish Vijoy\\Desktop\\Automation\\Selenium\\chromedriver-win32\\chromedriver.exe");
 	  WebDriver driver=new ChromeDriver();
-	  driver.get("https://www.google.com/intl/en-US/gmail/about/");
-	  Thread.sleep(2000);
+	  driver.get("https://www.google.com/");
+	  //Thread.sleep(2000);
 	  driver.manage().window().maximize();
+	  driver.findElement(By.className("M6CB1c yZqNl"));
+	  Thread.sleep(2000);
    }
   @Test
   public void login() throws InterruptedException

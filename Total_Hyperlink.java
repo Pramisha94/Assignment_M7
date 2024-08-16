@@ -1,6 +1,6 @@
 package com.assignment;
 
-import java.util.Iterator;
+
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -19,8 +19,7 @@ public class Total_Hyperlink {
 		
 		List<WebElement> a =driver.findElements(By.tagName("a"));
 		System.out.println("Total no.of Hyperlinks "+a.size());
-						
-			
+					
 		driver.close();
 	}
 }

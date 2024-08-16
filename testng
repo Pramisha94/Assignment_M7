@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.assignment.xml1"/>
+      <class name="com.assignment.xml2"/>
+      <class name="com.assignment.xml3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
